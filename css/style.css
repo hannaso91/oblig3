@@ -1,0 +1,26 @@
+#link-topp{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#flex-container-index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    list-style: ;
+}
+
+ul li{
+    list-style: none;
+}
+
+#logo{
+    font-size: 30px;
+}
