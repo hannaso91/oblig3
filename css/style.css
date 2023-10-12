@@ -11,16 +11,32 @@
 
 }
 
+#artikler{
+    text-align: center;
+}
+
+#waterproof{
+    text-align: center;
+}
+
 a{
     text-decoration: none;
     color: #000;
-    list-style: ;
 }
 
 ul li{
     list-style: none;
 }
 
-#logo{
-    font-size: 30px;
+#flex-container-logo{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#flex-container-logo 
+
+img{
+    width: 100%;
 }
