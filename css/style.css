@@ -5,6 +5,7 @@
 #link-topp{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #000;
 
 }
 
@@ -12,20 +13,15 @@
     margin: auto auto 2rem auto;
 }
 
-#grid-container-index main picture{
-    display: inline-block
-}
-
 
 #flex-container-index{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 body{
-    background-color: #f4ebe0;
+    background-color: #9c9a96;
 }
 
 #flex-container-logo{
@@ -33,42 +29,44 @@ body{
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
 #grid-container-index header nav span a{
-    margin: 70px;
+    margin: 70px 50px;
 }
 
 #grid-container-index main picture{
     margin: 3rem auto 3rem auto;
 }
 
-#artikler{
+.artikler{
     text-align: center;
 }
 
-#artikler article{
+.artikler article{
     margin: auto auto 2rem auto;
     border-radius: 50%;
 }
 
-#artikler article h3{
+.artikler article h3{
     margin: 3.5rem auto 0rem auto;
     display: inline-block;
-    background-color: #000;
+    background-color: #5e5b5b;
     color: #fff;
     padding: 0.5rem;
-    text-decoration: none;
     margin: 0.5rem;
     border-radius: 15%;
     width: 90px;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    border-color: #000;
+    box-shadow: 5px;
 }
 
-#artikler h2{
+.artikler h2{
     font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 3rem auto 1rem auto;
@@ -76,33 +74,67 @@ body{
 
 
 #hover{
-    background-color: #fff;
+    background-color: #8c8b8b;
     color: #000;
-}
-
-#waterproof article h3{
-    font-size: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-}
-
-#populare-choice{
-    text-align: center;
-}
-
-#populare-choice h2{
-    font-size: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 3rem auto 1rem auto;
+    
 }
 
 .pris{
     margin: 0 auto 3rem auto;
+    font-size: 25px;
+}
+
+#grid-container-index main picture img{
+    margin: 3rem auto;
 }
 
 #shoe-keeping{
     text-align: center;
     font-size: 1rem;
+}
+
+#shoe-keeping h2{
+    margin: 2rem auto 0.5rem auto;
+    font-size: 1.5rem;
+}
+
+#shoe-keeping article h3{
+    margin: 0rem auto 1rem auto;
+    font-size: 1rem;
+}
+
+#read-more-knapp{
+    display: inline-block;
+    background-color: #5e5b5b;
+    color: #fff;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 15%;
+    width: 90px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    border-color: #000;
+    box-shadow: 5px;
+
+}
+
+#nyhetsbrev{
+    text-align: center;
+    margin: 5rem auto;
+    
+}
+
+/*Inspirasjon hentet fra forelesning med Ann-Charlott og boken HTML og CSS av Duckett*/
+.face-insta{
+    display: inline-block;
+    background-color: rgb(171, 171, 196);
+    color: #fff;
+    padding: 10px;
+    border-radius: 40%;
+    padding: 1rem;
+    font-size: 25px;
+  
 }
 
 img{
@@ -130,17 +162,14 @@ a:hover{
 
 /*CSS for produktsiden*/
 
+
+
 .size{
     background-color: #000;
     color: #fff;
     display: inline-block;
     padding: 0.5rem;
     margin: 0.5rem;
-}
-
-.size:hover{
-    background-color: #fff;
-    color: #000;
 }
 
 #storrelse{
