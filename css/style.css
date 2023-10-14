@@ -8,6 +8,14 @@
 
 }
 
+#grid-container-index header{
+    margin: auto auto 2rem auto;
+}
+
+#grid-container-index main picture{
+    display: inline-block
+}
+
 
 #flex-container-index{
     display: flex;
@@ -15,7 +23,6 @@
     justify-content: space-between;
 
 }
-
 
 body{
     background-color: #f4ebe0;
@@ -25,8 +32,24 @@ body{
     margin: 70px;
 }
 
+#grid-container-index
+
 #artikler{
     text-align: center;
+}
+
+#artikler article{
+    margin: auto auto 2rem auto;
+}
+
+#artikler article h3{
+    margin: 3.5rem auto 0rem auto;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin: 0.5rem;
 }
 
 #artikler h2{
@@ -55,13 +78,15 @@ body{
 }
 
 
-
 #artikler article h3{
     font-size: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
 }
 
+#hover{
+    background-color: #fff;
+    color: #000;
+}
 
 #waterproof article h3{
     font-size: 1rem;
@@ -98,3 +123,27 @@ ul li{
     list-style: none;
 }
 
+a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+/*CSS for produktsiden*/
+
+.size{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.size:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#legg-i-handlekurv{
+    text-align: center;
+}
