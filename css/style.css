@@ -29,11 +29,21 @@ body{
     text-align: center;
 }
 
+#artikler h2{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3rem auto 1rem auto;
+}
+
 #waterproof{
     text-align: center;
 }
 
-
+#waterproof h2{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3rem auto 1rem auto;
+}
 
 #flex-container-logo{
     font-size: 20px;
@@ -44,10 +54,7 @@ body{
     
 }
 
-#artikler h2{
-    font-size: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 #artikler article h3{
     font-size: 1rem;
@@ -55,10 +62,6 @@ body{
     text-decoration: underline;
 }
 
-#waterproof h2{
-    font-size: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 #waterproof article h3{
     font-size: 1rem;
