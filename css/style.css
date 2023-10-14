@@ -8,10 +8,6 @@
 
 }
 
-#grid-container-index div ul li:hover{
-    background-color: #000;
-    color: #fff;
-}
 
 #flex-container-index{
     display: flex;
@@ -37,15 +33,7 @@ body{
     text-align: center;
 }
 
-a{
-    text-decoration: none;
-    color: #000;
-    
-}
 
-ul li{
-    list-style: none;
-}
 
 #flex-container-logo{
     font-size: 20px;
@@ -61,8 +49,49 @@ ul li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#artikler article h3{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+#waterproof h2{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#waterproof article h3{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+#populare-choice{
+    text-align: center;
+}
+
+#populare-choice h2{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3rem auto 1rem auto;
+}
+
+.pris{
+    margin: 0 auto 3rem auto;
+}
+
 img{
     width: 100%;
 
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+ul li{
+    list-style: none;
 }
 
