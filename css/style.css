@@ -144,6 +144,16 @@ a:hover{
     color: #000;
 }
 
+#storrelse{
+    font-size: 12px;
+    text-decoration: underline;
+    margin: auto auto 0rem auto;
+}
+
 #legg-i-handlekurv{
-    text-align: center;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
