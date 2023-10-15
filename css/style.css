@@ -2,9 +2,9 @@
     box-sizing: border-box;
 }
 
+
 #link-topp{
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #000;
 
 }
@@ -18,18 +18,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 body{
     background-color: #9c9a96;
 }
 
-#flex-container-logo{
+.flex-container-logo{
     font-size: 20px;
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
     
 }
 
@@ -60,15 +61,12 @@ body{
     border-radius: 15%;
     width: 90px;
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
     border: 3px solid;
     border-color: #000;
-    box-shadow: 5px;
 }
 
 .artikler h2{
     font-size: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 3rem auto 1rem auto;
 }
 
@@ -112,7 +110,6 @@ body{
     border-radius: 15%;
     width: 90px;
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
     border: 3px solid;
     border-color: #000;
     box-shadow: 5px;
@@ -126,6 +123,9 @@ body{
 }
 
 /*Inspirasjon hentet fra forelesning med Ann-Charlott og boken HTML og CSS av Duckett*/
+
+
+
 .face-insta{
     display: inline-block;
     background-color: rgb(171, 171, 196);
@@ -157,11 +157,31 @@ a:hover{
     color: black;
 }
 
+footer{
+    font-size: 15px;
+}
 
 
 
 /*CSS for produktsiden*/
 
+
+#grid-container-produkt{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grid-container-produkt header nav span a{
+    margin: 70px 50px;
+}
+
+#holly-molly-sko h2{
+    font-size: 20px;
+    margin: 3rem auto 0.5rem auto;
+}
+
+#pris-holly-molly{
+    margin: 0.5rem auto 1rem auto;
+}
 
 
 .size{
@@ -179,9 +199,53 @@ a:hover{
 }
 
 #legg-i-handlekurv{
-    background-color: #000;
-    color: #fff;
     display: inline-block;
+    background-color: #5e5b5b;
+    color: #fff;
     padding: 0.5rem;
     margin: 0.5rem;
+    border-radius: 15%;
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    border: 3px solid;
+    border-color: #000;
+    box-shadow: 5px;
+}
+
+.produktbeskrivelse{
+    text-align: center;
+    font-size: 15px;
+}
+
+#delivery{
+    margin: 5rem auto auto auto;
+}
+
+
+/*CSS for retur og leveranse*/
+
+main{
+    text-align: center;
+}
+
+#grid-container-retur{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#grid-container-retur header nav span a{
+    margin: 70px 50px;
+}
+
+#leveranse{
+    margin: 3rem auto;
+}
+
+#reklamasjon{
+    margin: 3rem auto;
+}
+
+#om-oss{
+    margin: 3rem auto;
 }
