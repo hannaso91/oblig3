@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-#grid-container-index{
+#grid-container-index, #grid-container-produkt, #grid-container-retur{
     display: grid;
     grid-template-areas: "header" "main" "footer";
 }
@@ -36,7 +36,22 @@ body{
     flex-direction: row;
     padding: 1rem;
     justify-content: space-between;
+    grid-area: header;
     
+}
+
+/*Dette er hentet fra forelesningen med Ann-Charlott 16.10*/
+#artikler-gender{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem 0.5rem;
+    justify-content: space-around;
+
+}
+
+#artikler-gender h2{
+    width: 100%;
 }
 
 #grid-container-index header nav span a{
@@ -47,11 +62,9 @@ body{
     margin: 3rem auto 3rem auto;
 }
 
-.artikler{
-    text-align: center;
-}
 
-#bilder-skjønn{
+
+#artikler-gender article img{
     display: none;
 }
 
@@ -60,12 +73,14 @@ body{
     border-radius: 50%;
 }
 
-.artikler article h3{
+
+
+.artikler article h3, #artikler-gender h3{
     margin: 3.5rem auto 0rem auto;
     display: inline-block;
     background-color: #5e5b5b;
     color: #fff;
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 0.5rem;
     border-radius: 15%;
     width: 90px;
@@ -77,13 +92,6 @@ body{
 .artikler h2{
     font-size: 1.5rem;
     margin: 3rem auto 1rem auto;
-}
-
-
-#hover{
-    background-color: #8c8b8b;
-    color: #000;
-    
 }
 
 .pris{
@@ -129,6 +137,10 @@ body{
     text-align: center;
     margin: 5rem auto;
     
+}
+
+#delivery, #customer-service, #sosiale-ikoner{
+    margin: 0.5rem;
 }
 
 /*Inspirasjon hentet fra forelesning med Ann-Charlott og boken HTML og CSS av Duckett*/
@@ -263,4 +275,44 @@ main{
 
 /*responsivitet og grid*/
 
+@media only screen and (min-width: 600px){
+    #grid-container-index, #grid-container-produkt, #grid-container-retur{
+    grid-template-areas: "header header header" "main main main" "footer footer footer"}
 
+    #artikler-gender article img{
+        display: flex;
+        flex-direction: row;
+        max-width: 40%;
+
+    }
+
+    #link-topp{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: 15px;
+    }
+
+    header{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+
+    .flex-container-logo{
+        font-size: 40px;
+        justify-content: space-between;
+    }
+
+    #delivery{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+}
