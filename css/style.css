@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+#grid-container-index{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+}
+
 
 #link-topp{
     font-size: 10px;
@@ -44,6 +49,10 @@ body{
 
 .artikler{
     text-align: center;
+}
+
+#bilder-skjønn{
+    display: none;
 }
 
 .artikler article{
@@ -254,10 +263,4 @@ main{
 
 /*responsivitet og grid*/
 
-@media screen only and (min-width: 520px){
-    #grid-container-index{
-        
-    }
 
-}
-    
