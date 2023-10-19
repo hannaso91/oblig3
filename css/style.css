@@ -276,7 +276,7 @@ main{
 
 @media only screen and (min-width: 600px){
     #grid-container-index, #grid-container-produkt, #grid-container-retur{
-        grid-template-areas: "header header header header" "main main main main" "footer footer footer main";
+        grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
@@ -327,6 +327,7 @@ main{
 
     .flex-container-logo{
         font-size: 40px;
+        margin: 3rem auto;
        
     }
 
@@ -338,15 +339,25 @@ main{
         align-items: flex-start;
     }
 
-    #footer-footer{
+    .footer-footer{
+        display: grid;
+        grid-template-areas: left center right;
+        width: 100%;
         grid-area: footer;
     }
 
+    
+
     #delivery{
-        grid-row-start: 5;
-        grid-row-end: 6;
-        grid-column-start: 1;
-        grid-column-end: 2;
+        grid-area: left;
+    }
+
+    #customer-service{
+        grid-area: center;
+    }
+
+    #sosiale-ikoner{
+        grid-area: right;
     }
 
 }
