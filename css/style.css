@@ -127,20 +127,14 @@ body{
     margin: 0.5rem;
 }
 
+.fa-regular.fa-comments, .fa-brands.fa-facebook, .fa-brands.fa-instagram{
+    font-size: 30px;
+}
+
 /*Inspirasjon hentet fra forelesning med Ann-Charlott og boken HTML og CSS av Duckett*/
 
 
 
-.face-insta{
-    display: inline-block;
-    background-color: rgb(171, 171, 196);
-    color: #fff;
-    padding: 10px;
-    border-radius: 40%;
-    padding: 1rem;
-    font-size: 25px;
-  
-}
 
 img{
     width: 100%;
@@ -156,6 +150,7 @@ a{
 
 ul li{
     list-style: none;
+    text-decoration: underline;
 }
 
 a:hover{
@@ -268,6 +263,7 @@ main{
     #grid-container-index main{
         grid-column-start: 1;
         grid-column-end: 5;
+        margin: 1rem;
     }
 
     .flex.gender{
@@ -332,7 +328,7 @@ main{
         font-size: 25px;
     }
 
-    .footer-footer{
+    .footer-sko{
         display: grid;
         grid-template-areas: "left center right";
         width: 100%;
@@ -358,6 +354,31 @@ main{
         grid-area: right;
         justify-self: center;
         align-self: center;
+    }
+
+    /*produktsiden*/
+
+    #brodsti ul{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #grid-container-produkt main{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+
+    /*retur og leveranse siden*/
+
+    #grid-container-retur main{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    #leveranse h2, #retur-og-bytte h2, #reklamasjon h2, #kunde-service h2, #om-oss h2 {
+        font-size: 30px;
     }
 
 }
