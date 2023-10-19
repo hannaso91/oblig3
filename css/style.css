@@ -102,21 +102,6 @@ body{
     margin: 3rem auto;
 }
 
-#shoe-keeping{
-    text-align: center;
-    font-size: 1rem;
-}
-
-#shoe-keeping h2{
-    margin: 2rem auto 0.5rem auto;
-    font-size: 1.5rem;
-}
-
-#shoe-keeping article h3{
-    margin: 0rem auto 1rem auto;
-    font-size: 1rem;
-}
-
 #read-more-knapp{
     display: inline-block;
     background-color: #5e5b5b;
@@ -285,15 +270,15 @@ main{
         grid-column-end: 5;
     }
 
-    #artikler-gender{
-        justify-content: space-between;
-    }
-
     .flex.gender{
       grid-column-start: 1;
       grid-column-end: 5;
     }
 
+    .artikler h2{
+        font-size: 40px;
+        margin: 200px auto 100px auto;
+    }
 
     #artikler-gender article img{
         display: flex;
@@ -304,6 +289,7 @@ main{
     
     #artikler-gender h2{
         font-size: 40px;
+        margin: 200px auto 100px auto;
     }
 
     #artikler-gender h3{
@@ -331,33 +317,47 @@ main{
        
     }
 
-
-
     .flex.gender{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
+    .produktene{
+        display: flex;
+        gap: 2rem;
+    }
+
+    #nyhetsbrev{
+        font-size: 25px;
+    }
+
     .footer-footer{
         display: grid;
-        grid-template-areas: left center right;
+        grid-template-areas: "left center right";
         width: 100%;
         grid-area: footer;
     }
 
-    
-
     #delivery{
         grid-area: left;
+        justify-self: center;
+        align-self: center;
+        margin: 0.5rem auto;
     }
 
     #customer-service{
         grid-area: center;
+        justify-self: center;
+        align-self: center;
+
     }
 
+    /*Inspirasjon hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties*/
     #sosiale-ikoner{
         grid-area: right;
+        justify-self: center;
+        align-self: center;
     }
 
 }
