@@ -18,6 +18,13 @@
     margin: auto auto 2rem auto;
 }
 
+#brodsti ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto auto 2rem auto;
+
+}
+
 
 #flex-container-index{
     display: flex;
