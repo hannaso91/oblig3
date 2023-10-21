@@ -18,6 +18,10 @@
     margin: auto auto 2rem auto;
 }
 
+.fa-solid.fa-user{
+    display: none;
+}
+
 #brodsti ul{
     display: flex;
     flex-direction: row;
@@ -68,8 +72,6 @@ body{
     margin: 3rem auto 3rem auto;
 }
 
-
-
 #artikler-gender article img{
     display: none;
 }
@@ -78,8 +80,6 @@ body{
     margin: auto auto 2rem auto;
     border-radius: 50%;
 }
-
-
 
 .artikler article h3, #artikler-gender h3{
     margin: 3.5rem auto 0rem auto;
@@ -139,8 +139,6 @@ body{
 }
 
 /*Inspirasjon hentet fra forelesning med Ann-Charlott og boken HTML og CSS av Duckett*/
-
-
 
 
 img{
@@ -267,6 +265,10 @@ main{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    .fa-solid.fa-user{
+        display: inline-block;
+    }
+
     #grid-container-index main{
         grid-column-start: 1;
         grid-column-end: 5;
@@ -344,14 +346,14 @@ main{
         margin: 4rem auto;
     }
 
-    #delivery{
+    .delivery{
         grid-area: left;
         justify-self: center;
         align-self: center;
         margin: 0.5rem auto;
     }
 
-    #customer-service{
+    .customer-service{
         grid-area: center;
         justify-self: center;
         align-self: center;
@@ -359,7 +361,7 @@ main{
     }
 
     /*Inspirasjon hentet fra https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties*/
-    #sosiale-ikoner{
+    .sosiale-ikoner{
         grid-area: right;
         justify-self: center;
         align-self: center;
@@ -384,6 +386,10 @@ main{
         display: flex;
         justify-content: center;
         margin: 5rem auto;
+    }
+
+    #holly-molly-sko img{
+        margin: 3rem;
     }
 
     
@@ -427,12 +433,6 @@ main{
     #grid-container-retur main{
         grid-column-start: 2;
         grid-column-end: 4;
-    }
-
-    #holly-molly-sko img{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        margin: 3rem;
     }
 
     #leveranse h2, #retur-og-bytte h2, #reklamasjon h2, #kunde-service h2, #om-oss h2 {
