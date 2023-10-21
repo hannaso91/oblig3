@@ -334,6 +334,7 @@ main{
         grid-template-areas: "left center right";
         width: 100%;
         grid-area: footer;
+        margin: 4rem auto;
     }
 
     #delivery{
@@ -373,62 +374,44 @@ main{
     /*Mye av dette under her på min produktside for å få plassert ting riktig, er hentet fra w3schools og css-tricks om grid*/
 
     #holly-molly-sko{
-        display: grid;
-        grid-template-areas: "img img header" 
-                            "img img holly" 
-                            "img img price"
-                            "img img size-text"
-                            "img img size" 
-                            "img img handlekurv" 
-                            ". produkth ."
-                            "description description description";
+        display: flex;
+        justify-content: center;
+        margin: 5rem auto;
     }
 
+    
     #holly-molly-sko h2{
         font-size: 20px;
         margin: 3rem auto 0.5rem auto;
-        grid-area: header;
-    }
-
-    #holly-molly-sko img{
-        grid-area: img;
-        
-    }
-
-    #holly-text{
-        grid-area: holly;
-
     }
 
     #pris-holly-molly{
         margin: 0.5rem auto 1rem auto;
-        grid-area: price;
-    }
-
-    #holly-molly-sko h6{
-        grid-area: produkth;
+        font-weight: bolder;
     }
 
     #storrelse{
-        grid-area: size-text;
         font-size: 12px;
         text-decoration: underline;
         margin: auto auto 0rem auto
     }
 
     #sizes{
-        grid-area: size;
+        margin: 1rem auto;
     }
 
     #legg-i-handlekurv{
-        grid-area: handlekurv;
-        justify-self: center;
+        margin: 3rem;
+    }
+
+    .produktbeskrivelse{
+        margin: auto;
     }
 
     #produkt-text{
-        grid-area: description;
         width: 50%;
-        justify-self: center;
+        display: inline-block;
+        list-style: none;
     }
 
 
@@ -442,6 +425,7 @@ main{
     #holly-molly-sko img{
         grid-column-start: 1;
         grid-column-end: 2;
+        margin: 3rem;
     }
 
     #leveranse h2, #retur-og-bytte h2, #reklamasjon h2, #kunde-service h2, #om-oss h2 {
