@@ -29,6 +29,10 @@
 
 }
 
+#sma-bilder{
+    display: none;
+}
+
 
 #flex-container-index{
     display: flex;
@@ -375,12 +379,18 @@ main{
 
     }
 
+    #sma-bilder{
+        display: inline-block;
+        width: 5%;
+        margin: 0rem 3rem 2rem 0rem;
+    }
+
     #grid-container-produkt main{
         grid-column-start: 1;
         grid-column-end: 5;
     }
 
-    /*Mye av dette under her på min produktside for å få plassert ting riktig, er hentet fra w3schools og css-tricks om grid*/
+    /*Mye av dette under her på min produktside for å få plassert ting riktig, er hentet fra w3schools og css-tricks om flex*/
 
     #holly-molly-sko{
         display: flex;
@@ -389,7 +399,7 @@ main{
     }
 
     #holly-molly-sko img{
-        margin: 3rem;
+        margin: 0.5rem;
     }
 
     
@@ -440,3 +450,5 @@ main{
     }
 
 }
+
+/*nesten alt jeg har gjort i hele oppgaven er cowboy coda, jeg har testet mye frem og tilbake og lært utrolig masse av det*/
