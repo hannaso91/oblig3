@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #grid-container-index, #grid-container-produkt, #grid-container-retur{
@@ -11,6 +12,7 @@
 #link-topp{
     font-size: 10px;
     color: #000;
+    margin-right: 10px;
 
 }
 
@@ -20,6 +22,10 @@
 
 .fa-solid.fa-user{
     display: none;
+}
+
+.flex-container-logo span{
+    margin: 0px 0px auto auto;
 }
 
 #brodsti ul{
@@ -43,6 +49,11 @@
 
 body{
     background-color: #9c9a96;
+}
+
+/*Denne fant jeg under cowboy koding, da ble elementene slik jeg ønsket å ha de*/
+.tekst-logo{
+    display: block ruby;
 }
 
 .flex-container-logo{
@@ -70,6 +81,7 @@ body{
 
 #grid-container-index header nav span a{
     margin: 70px 50px;
+    margin-right: 20px;
 }
 
 #grid-container-index main picture{
@@ -180,8 +192,12 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#brodsti{
+    margin-top: 40px;
+}
+
 #grid-container-produkt header nav span a{
-    margin: 70px 50px;
+    margin: 70px 20px;
 }
 
 #holly-molly-sko h2{
@@ -245,7 +261,7 @@ main{
 
 
 #grid-container-retur header nav span a{
-    margin: 70px 50px;
+    margin: 70px 25px;
 }
 
 #leveranse{
@@ -377,6 +393,10 @@ main{
         display: flex;
         flex-direction: row;
 
+    }
+
+    .flex-container-logo span{
+        margin: auto;
     }
 
     #sma-bilder{
