@@ -327,6 +327,7 @@ main{
         grid-row-start: 1;
         grid-row-end: 2;
         font-size: 15px;
+        grid-area: header;
     }
 
     header{
